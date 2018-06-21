@@ -19,6 +19,8 @@ public class Jugador implements Serializable {
     private int dni;
     private String nombre;
     private int edad;
+    private String direccion;
+    
 
     public int getDni() {
         return dni;
@@ -44,4 +46,6 @@ public class Jugador implements Serializable {
         this.edad = edad;
     }
 
+    
+    
 }
