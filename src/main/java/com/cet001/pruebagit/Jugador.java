@@ -21,6 +21,7 @@ public class Jugador implements Serializable {
     private String nombre;
     private int edad;
     private String direccion;
+    private String nacionalidad;
     
 
     public int getDni() {
